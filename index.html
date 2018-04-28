@@ -1,14 +1,113 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Moffat Profile</title>
-    <link rel="stylesheet" href="css/styles.css"type="text/css">
-  </head>
-  <body>
-<h1>Moffat Mochama Ombasa</h1>
-<h2>A Brief Introduction</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut felis nulla, lobortis ac nisi ac, tempus pretium tortor. Sed vel ligula ac urna ullamcorper iaculis sit amet tempor nulla. Nullam congue enim ac quam pretium, et rutrum est commodo. Quisque libero quam, aliquam nec varius nec, ultrices eu leo. Donec maximus elit orci, vel convallis ante consectetur in. Vivamus porttitor dolor a sapien porta, non vulputate quam volutpat. Ut fermentum augue a lorem dapibus, non commodo augue dignissim. Praesent fermentum nisi non leo pellentesque, non tempor dolor efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam et feugiat mauris. Nam posuere vehicula nisl id hendrerit. Vestibulum nec eros consequat, vehicula arcu egestas, placerat lorem. Fusce at diam interdum, commodo purus vel, lobortis turpis. Aenean interdum dapibus sem nec laoreet. Cras diam ligula, consequat ut neque sit amet, auctor congue magna. Integer at ultrices leo.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut felis nulla, lobortis ac nisi ac, tempus pretium tortor. Sed vel ligula ac urna ullamcorper iaculis sit amet tempor nulla. Nullam congue enim ac quam pretium, et rutrum est commodo. Quisque libero quam, aliquam nec varius nec, ultrices eu leo. Donec maximus elit orci, vel convallis ante consectetur in. Vivamus porttitor dolor a sapien porta, non vulputate quam volutpat. Ut fermentum augue a lorem dapibus, non commodo augue dignissim. Praesent fermentum nisi non leo pellentesque, non tempor dolor efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam et feugiat mauris. Nam posuere vehicula nisl id hendrerit. Vestibulum nec eros consequat, vehicula arcu egestas, placerat lorem. Fusce at diam interdum, commodo purus vel, lobortis turpis. Aenean interdum dapibus sem nec laoreet. Cras diam ligula, consequat ut neque sit amet, auctor congue magna. Integer at ultrices leo.</p>
-  </body>
+<html>
+<head>
+<title>Moffat Ombasa</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    margin: 0;
+}
+.header {
+    padding: 60px;
+    text-align: center;
+    background: orange;
+    color: white;
+}
+.navbar {
+    display: flex;
+    background-color: #333;
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.side {
+    flex: 30%;
+    background-color: #FBFBEF;
+    padding: 20px;
+}
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+.fakeimg {
+    background-color: #aaa;
+    width: 60%;
+    padding: 20px;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+img {
+  width: 500px;
+  height: auto;
+}
+@media screen and (max-width: 700px) {
+    .row, .navbar {
+        flex-direction: column;
+    }
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Moffat Mochama Ombasa</h1>
+  <p>A standard <strong>Moringa School</strong> Programmer.</p>
+</div>
+<div class="navbar">
+  <a href="#">Facebook</a>
+  <a href="#">Twitter</a>
+  <a href="#">Linkedin</a>
+  <a href="#">Website</a>
+</div>
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h4>This is me:</h4>
+    <img src="images/moffat.jpg" alt="picture of me holding my baby">
+      <p>This photo was taken on 19th March, 2016. In the image, i am holding my little baby Jeremiah while the mother takes us the picture. It is a wonderful moment.</p>
+    <h3>More Text</h3>
+  </div>
+<div class="main">
+  <h2>ABOUT ME</h2>
+    <h5>Last Updated on April 28, 2018: 11:13:56 pm.</h5>
+    <p>I am moffat, and i am the fifth son of ERichard Ombasa, a local church elder; and Deconess Euniah Monyag'i.<p/>
+    <p>"The world of computers is growing at an un-recordable rate. Everyday, computers are the most influential tools in our lives, they are our present and future. In my opinion nothing on the planet can measure the exponential growth and excitement in the computing industry, and industry which I want to be a part of, particularly Software Engineering.<p/>
+    <p>As long as computers are around, Software Engineering will take place after all, people need to write and code the programs like Microsoft Word, and code your games, they don’t just appear. My goal is to be part of a team who creates worthwhile, efficient and useful software for consumers. And the Engineering course if I work at it, which I will, will be the key to my success, my current computing A-Level course is a good first step for my goal.</p>
+    <p>Currently, I am enrolled at moringa school, and I have learned many things while studying here. While i cannot call myself an expert, i have done some simple projects. The major courses that i have learned so far include the following: </p>
+    <ul>
+      <li><strong>HTML and CSS</strong></li>It was from this knowledge that i actually made my first ever site! you can view it <a href="https://github.com/MoffatOmbasa/hi-moff">by clicking here<a/>
+    </ul>
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
 </html>
