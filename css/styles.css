@@ -2,23 +2,91 @@ head{
   text-align: center;
 }
 body {
-  text-align: center;
+  text-align: left;
   font-family: fantasy;
-  background-color: beige;
+  background-color: #CEECF5;;
   background-position: center;
   border: 4px solid black;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  margin-right: 8px;
-  margin-left: 8px;
+  margin:auto;
 }
 img {
   height: 50px;
   width: 50px;
 }
-h1 {
-  font-size: 500px;
-}
 h5 {
   font-family: fantasy;
+}
+h3 {
+color: Red;
+}
+h2 {
+  text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'serif';font-size: 22px;
+    margin: 0;
+}
+.header {
+    padding: 60px;
+    text-align: center;
+    background: blue;
+    color: white;
+}
+.navbar {
+    display: flex;
+    background-color: #333;
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.side {
+    flex: 30%;
+    background-color: beige;
+    padding: 20px;
+}
+.main {
+    flex: 70%;
+    background-color: #CEECF5;;
+    padding: 15px;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: grey;
+}
+.button {
+    background-color: green;
+    border: red;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+img {
+  width: 500px;
+  height: auto;
+}
+@media screen and (max-width: 700px) {
+    .row, .navbar {
+        flex-direction: column;
+    }
 }
